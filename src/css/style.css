@@ -1,0 +1,118 @@
+body{
+    text-align: center;
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+}
+
+.principal{
+    border-radius: 25px;
+    background-color: white;
+    max-width: 600px;
+    text-align: left;
+    margin: 100px auto;
+    padding: 35px;
+}
+
+img{
+    border-radius: 20px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.instructions{
+    padding: 25px;
+}
+
+.preparation{
+    padding: 15px 35px;
+    background-color:hsla(332, 51%, 32%, 0.048);
+    border-radius: 15px;
+}
+
+.igredients, 
+.nutritional{
+    padding: 25px;
+}
+
+
+.titulos{
+    font-size: 38px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+h2{
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 200;
+}
+
+ul{
+    list-style: inside;
+}
+
+ol{
+    list-style: inside;
+    list-style-type:decimal;
+}
+
+.minititulos{
+    font-size: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+.markerPrep::marker{
+    color: hsl(332, 51%, 32%);
+ 
+}
+
+.markerIgr::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.markerIns::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+table{
+    font-family: "Outfit", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    border-bottom: 1px solid hsla(15, 4%, 18%, 0.24);
+    text-align: left;
+    padding: 10px;
+
+}
+
+
+.border-none{
+    border-bottom: none;
+}
+
+hr{
+    margin: 20px;
+    border-color: hsla(15, 4%, 18%, 0.24);
+}
+.calories{
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+@media(max-width: 500px){
+    .principal{
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    img{
+        border-radius: 0px;
+        margin: 0px;
+    }
+    .conteiner{
+        padding: 25px;
+    }
+}
